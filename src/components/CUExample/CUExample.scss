@@ -1,0 +1,45 @@
+.CUExample {
+  .info-CUExample {
+    .paragraph.info {
+      &.lastParagraph-info{
+        
+      }
+    }
+    .imageContainer-CUExample {
+      .image-imageContainer {
+        
+      }
+      .imageCaption--imageContainer {
+        
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// https://github.com/eltorocorp/portal-ui/blob/develop/src/political-portal/Dashboard/components/MainDashboard/DashboardCampaignsStatusChart/_dashboard_campaigns_status_chart.scss
+
+.DashboardCampaignsStatusChart {
+  .chartContainer-DashboardCampaignsStatusChart {
+    .keyContainer-chartContainer {
+      .key-keyContainer {
+        .keyRow-keyContainer {
+          .label-keyRow {
+            .count-label {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.DashboardCampaignsStatusChart .chartContainer-DashboardCampaignsStatusChart .keyContainer-chartContainer .key-keyContainer .keyRow-keyContainer .label-keyRow .count-label {
+  font-weight: bold;
+}

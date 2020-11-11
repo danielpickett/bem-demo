@@ -1,0 +1,31 @@
+.Card {
+  &__header {
+  }
+  &__title {
+  }
+  &__toggle-button {
+  }
+  &__body {
+  }
+  &__footer {
+  }
+  &__buttons {
+  }
+  &__button {
+  }
+}
+
+.Card--is-active {
+  border: 2px solid red;
+}
+
+.Card:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Card--disabled {
+  border: 2px solid lightgrey;
+  .Card__button {
+    background-color: lightgrey;
+  }
+}
