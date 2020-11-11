@@ -69,10 +69,20 @@ export const Card_BEM2 = () => (
 {/* 
 
 <Card>
-  <CardHeader/>
+  <CardHeader />
   <CardBody />
   <CardFooter />
 </Card>
+
+
+
+
+
+
+
+
+
+
 
 const CardWithMenu = ({children, menuItems}) => (
   <Card>
@@ -82,6 +92,16 @@ const CardWithMenu = ({children, menuItems}) => (
 )
 
 */}
+
+
+
+
+
+
+
+
+
+
 
 
 
